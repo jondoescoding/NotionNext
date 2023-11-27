@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #928CEE;
+        color: #FFFFFF; 
     }
 
     /* Set a top-to-bottom gradient black */
