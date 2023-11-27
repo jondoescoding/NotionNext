@@ -30,15 +30,14 @@ const Style = () => {
     }
 
     /* Set a top-to-bottom gradient black */
-    #theme-hexo .header-cover {
+    #theme-hexo .header-cover::before{
         content: "";
-        position: sticky;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 10;
-        background: rgb(128,128,128);
+        background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 100%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
     }
 
     /* Custom */

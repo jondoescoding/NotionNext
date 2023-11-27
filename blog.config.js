@@ -5,15 +5,15 @@ const BLOG = {
         process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // Pseudo-static path, after opening, all article URLs end with .html.
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 10, // Update content cache interval unit (seconds); that is, each page has a 5-second pure static period, during which no matter how many times you visit, Notion data will not be fetched; increasing this value helps save Vercel resources and improve access speed, but it will also delay article updates.
-  THEME: process.env.NEXT_PUBLIC_THEME || 'next', // Current theme, all supported themes can be found in the themes folder; the theme name is the folder name, for example example, fukasawa, gitbook, heo, hexo, landing, matery, medium, next, nobelium, plog, simple
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Current theme, all supported themes can be found in the themes folder; the theme name is the folder name, for example example, fukasawa, gitbook, heo, hexo, landing, matery, medium, next, nobelium, plog, simple
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // Whether to display the theme switch button
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_SINCE || 2023, // e.g if leave this empty, current year will be used.
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'dark', // ['light', 'dark', 'auto'], // light day mode, dark night mode, auto automatic night mode based on time and theme
-  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME ||false, // Night mode start and end time, false turns off automatic switching of night mode based on time
+  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || false, // Night mode start and end time, false turns off automatic switching of night mode based on time
 
   // Welcome message after version 3.14.1, separated by English commas, supports multiple welcome messages typing effect.
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || "Yo! I'm Jon, A BJJ Practitioner, A Coder & Aspiring Starting Founder",
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || "Yo! I'm Jon, A BJJ Practitioner, A Coder & Aspiring Startup Founder",
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Support Menu type, from version 3.12.0, each theme will gradually support flexible secondary menu configuration, replacing the original Page type, this configuration is an experimental feature, off by default.
 
