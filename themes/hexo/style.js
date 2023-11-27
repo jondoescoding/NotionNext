@@ -29,6 +29,22 @@ const Style = () => {
         color: #FFFFFF; 
     }
 
+    /* Set a top-to-bottom gradient black */
+    #theme-hexo .header-cover {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(128,128,128);
+    }
+
+    #theme-hexo .sticky-nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
 
     /* Custom */
     .tk-footer{
