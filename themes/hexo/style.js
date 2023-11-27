@@ -17,7 +17,8 @@ const Style = () => {
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
         text-decoration: none;
-        background-image: linear-gradient(#928CEE, #928CEE);
+        // background-image: linear-gradient(#928CEE, #928CEE);
+        background-image: #A9A9A9;
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: 0 2px;
@@ -37,8 +38,8 @@ const Style = () => {
         left: 0;
         width: 100%;
         height: 100%;
-        background: #A9A9A9;
-        // background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
+        // background: #A9A9A9;
+        background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
     }
 
     /* Custem */
@@ -48,7 +49,7 @@ const Style = () => {
 
     // 选中字体颜色
     ::selection {
-        background: rgba(45, 170, 219, 0.3);
+        background: rgba(255, 235, 59, 0.3);
     }
 
     // 自定义滚动条
