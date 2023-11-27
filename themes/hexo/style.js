@@ -29,28 +29,6 @@ const Style = () => {
         color: #FFFFFF; 
     }
 
-    /* Set a top-to-bottom gradient black */
-    // #theme-hexo .header-cover::before {
-    //     content: "";
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     background: linear-gradient(to bottom, rgb(128,128,128) 0%, rgb(192,192,192) 10%, rgb(224,224,224) 25%, rgb(192,192,192) 75%, rgb(128,128,128) 100%);
-    //     // background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
-    // }
-
-    /* Set a top-to-bottom gradient black */
-    #theme-hexo .header-cover {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to bottom, rgb(128,128,128) 0%, rgb(192,192,192) 10%, rgb(224,224,224) 25%, rgb(192,192,192) 75%, rgb(128,128,128) 100%);
-    }
 
     /* Custom */
     .tk-footer{
