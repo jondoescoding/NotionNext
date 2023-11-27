@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unknown-property */
 /**
- * 这里的css样式只对当前主题生效
- * 主题客制化css
+ * The CSS styles here only take effect for the current theme
+ * Theme customization CSS
  * @returns
  */
 const Style = () => {
   return (<style jsx global>{`
-    // 底色
+    // Base color
     body{
         background-color: #f5f5f5
     }
@@ -14,14 +14,12 @@ const Style = () => {
         background-color: black;
     }
   
-    /*  菜单下划线动画 */
+    /* Menu underline animation */
     #theme-hexo .menu-link {
         text-decoration: none;
-        // background-image: linear-gradient(#928CEE, #928CEE);
-        background-image: #FF0000;
+        background-image: linear-gradient(#928CEE, #928CEE);
         background-repeat: no-repeat;
-        // background-position: bottom center;
-        background-position: bottom;
+        background-position: bottom center;
         background-size: 0 2px;
         transition: background-size 100ms ease-in-out;
     }
@@ -31,7 +29,7 @@ const Style = () => {
         color: #928CEE;
     }
 
-    /* 设置了从上到下的渐变黑色 */
+    /* Set a top-to-bottom gradient black */
     #theme-hexo .header-cover::before {
         content: "";
         position: absolute;
@@ -39,21 +37,20 @@ const Style = () => {
         left: 0;
         width: 100%;
         height: 100%;
-        // background: #A9A9A9;
         background:  linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 10%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.2) 75%, rgba(0,0,0,0.5) 100%);
     }
 
-    /* Custem */
+    /* Custom */
     .tk-footer{
         opacity: 0;
     }
 
-    // 选中字体颜色
+    // Selected text color
     ::selection {
         background: rgba(255, 235, 59, 0.3);
     }
 
-    // 自定义滚动条
+    // Custom scrollbar
     ::-webkit-scrollbar {
         width: 5px;
         height: 5px;
