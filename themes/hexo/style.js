@@ -47,7 +47,7 @@ const Style = () => {
 
     // Selected text color
     ::selection {
-        background: rgba(255, 235, 59, 0.3);
+        background: rgba(0, 0, 0, 0.1);
     }
 
     // Custom scrollbar
