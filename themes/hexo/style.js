@@ -20,7 +20,8 @@ const Style = () => {
         // background-image: linear-gradient(#928CEE, #928CEE);
         background-image: #A9A9A9;
         background-repeat: no-repeat;
-        background-position: bottom center;
+        // background-position: bottom center;
+        background-position: bottom;
         background-size: 0 2px;
         transition: background-size 100ms ease-in-out;
     }
