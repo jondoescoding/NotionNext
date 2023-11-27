@@ -1,7 +1,7 @@
 const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
   // Starting from version 3.14.1, the greetings are configured in blog.config.js, separated by commas ','.
-  //HEXO_HOME_BANNER_GREETINGS: ["Yo! I'm Jon. A BJJ Coach & Fighter", 'Fighter & Coder', 'The Gentle Art'], // Text for the homepage banner
+  HEXO_HOME_BANNER_GREETINGS: ["Yo! I'm Jon. A BJJ Coach & Fighter", 'Fighter & Coder', 'The Gentle Art'], // Text for the homepage banner
 
   HEXO_HOME_NAV_BUTTONS: false, // Whether to show category buttons on the homepage
   // Known unresolved bug, images fail to load on mobile when set to true; Temporarily recommended to set as false.
